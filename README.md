@@ -16,6 +16,7 @@ Command line tool for github, seeing open pull requests, issue and etc, for a Or
 # Libraries
 - Click <http://click.pocoo.org/>
 - PyGithub <https://github.com/jacquev6/PyGithub>
+- Whoosh <https://pypi.python.org/pypi/Whoosh> <https://pypi.python.org/pypi/WhooshDoc/1.0>
 
 # Supporting Libraries
 - Building with setuptools <https://pythonhosted.org/setuptools/>
