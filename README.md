@@ -8,8 +8,39 @@ Command line tool for github, seeing open pull requests, issue and etc, for a Or
 
 * * *
 
+# PRD - Product Requirement Document
+
+`ghf org[/repo] command`
+
+Repo authentication should use a common mechanism (can it piggy back off of what git uses ?) or something like netrc
+
+TODO: make sure these command don't already exist from the commandline
+
+### Commands
+`issues`
+- create issue
+ 
+`pull[-requests]`
+- open pull requests (can this already be done from the commandline?)
+  - If already exists maybe print how todo this
+- list all open pull requests
+
+`repos[itories]`
+
+`team`
+- list all contributors to a org
+ 
+
+Eventually should have a plugin architecture to allow things like other commands e.g. huboard
+
+`ghf org[/repo] huboard`
+- move issue to next stage
+- list all stages
 
 
+
+Needs pip install
+Create config template
 
 * * *
 
