@@ -69,6 +69,7 @@ Create config template
 Use this to develop plugins
 - https://pythonhosted.org/setuptools/setuptools.html#dynamic-discovery-of-services-and-plugins
 - https://nose.readthedocs.org/en/latest/plugins/builtin.html
+- https://nose.readthedocs.org/en/latest/plugins/writing.html
 
 
 # References 
