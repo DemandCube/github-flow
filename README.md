@@ -63,6 +63,10 @@ Create config template
 - Badge <http://badge.fury.io/>
 - PyPi <https://pypi.python.org/pypi>
 
+# Github API
+- https://developer.github.com/v3/
+- https://developer.github.com/libraries/
+
 
 # plugins
 
@@ -79,3 +83,10 @@ Use this to develop plugins
 # Active Development Bookmarks
 - Example setup.py <https://github.com/ansible/ansible/blob/devel/setup.py>
 - <http://click.pocoo.org/setuptools/#introduction>
+
+# other github command line tools
+- https://github.com/sociomantic/git-hub
+- https://github.com/github/hub
+- https://github.com/stephencelis/ghi
+- http://nodegh.io/
+- https://github.com/jsmits/github-cli
