@@ -25,3 +25,6 @@
 .DS_Store
 
 *.pyc
+
+src/githubflow.egg-info/
+venv/

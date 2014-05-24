@@ -6,8 +6,11 @@ setup:
 	echo "RUN:"
 	echo ". venv/bin/activate"
 	
-install-dev:
+install-local:
 	pip install --upgrade .
+
+install-dev:
+	pip install -e .
 
 register:
 	python setup.py register
