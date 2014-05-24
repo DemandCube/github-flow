@@ -6,6 +6,74 @@ Command line tool for github, seeing open pull requests, issue and etc, for a Or
 
 - This is part of [NeverwinterDP the Data Pipeline for Hadoop](https://github.com/DemandCube/NeverwinterDP)
 
+
+
+
+## Installation
+
+```
+pip install githubflow
+```
+
+## Contributing
+
+See the [NeverwinterDP Guide to Contributing] (https://github.com/DemandCube/NeverwinterDP#how-to-contribute)
+
+
+* * *
+
+## Usage and Specs
+github-flow has 1 command `ghf` and the following subcommands:
+
+```
+add-command1
+```
+
+- command1
+  - Description of command1
+
+Example flow to be enabled
+```
+pip install githubflow
+ghf ......TODO......
+```
+
+
+# Usage
+
+* * *
+## command 1
+```
+Usage: ghf command1  [-hgliq]
+
+TODO REPLACE WITH ACTUALL
+This looks for multiinit.yml as the default configuration
+
+    -g FILEPATH,                     (Optional) YAML file containing vagrant cloud config
+        --vagrant_multiinit_config_file
+    -l hostname:cloud/location,hostname2:cloud/location2,hostname3:cloud/location3,
+        --list                       List of cloud config parameters
+    -i, --vboxintnet NAME            (Optional) Custom virtualbox__intnet name for private network
+    -q, --quiet                      (Optional) Suppress output to STDOUT and STDERR
+    -h, --help                       Print this help
+```
+
+#### Example usages of multiinit
+This will look for a file in the pwd named multiinit.yml and attempt to make the Vagrantfile
+```
+ghf command1
+```
+
+
+Example number 2
+```
+ghf command1 some option
+```
+
+### Use case
+- You'll do this
+
+
 * * *
 
 # PRD - Product Requirement Document
