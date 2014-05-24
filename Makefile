@@ -8,6 +8,10 @@ setup:
 	
 install-dev:
 	pip install --upgrade .
-	
 
+register:
+	python setup.py register
+
+publish:
+	python setup.py sdist upload
 	
