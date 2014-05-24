@@ -57,7 +57,7 @@ Create config template
 - Deployment with Pip <http://www.pip-installer.org/en/latest/>
 - Development with Virtualenv <http://www.virtualenv.org/en/latest/>
 - Config Mangement Ansible <https://github.com/ansible/ansible>
-
+- Tabular output <https://pypi.python.org/pypi/tabulate/0.7.2>
 
 # Supporting Services
 - Badge <http://badge.fury.io/>
