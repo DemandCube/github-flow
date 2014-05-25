@@ -24,6 +24,7 @@ register:
 
 publish:
 	python setup.py sdist upload
-	
-	
-	
+
+# Run as `make ARGS="--version" debug`
+debug:
+	PYTHONPATH="${PYTHONPATH}:./src" python -m pdb src/githubflow/runner.py $(ARGS)

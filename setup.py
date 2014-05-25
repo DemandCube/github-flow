@@ -29,7 +29,7 @@ setup(
     url='http://github.com/Demandcube/github-flow',
     include_package_data=True,
     install_requires=[
-        'Click',
+        'Click','requests', 'tabulate',
     ],
     entry_points='''
         [console_scripts]
