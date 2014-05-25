@@ -1,6 +1,15 @@
+# make help
+# @ surpresses the output of the line
+help:
+	@make -qp | awk -F':' '/^[a-zA-Z0-9][^$$#\/\t=]*:([^=]|$$)/ {split($$1,A,/ /);for(i in A)print A[i]}'
+
+# raw to commandline execute
+# make -qp | awk -F':' '/^[a-zA-Z0-9][^$#\/\t=]*:([^=]|$)/ {split($1,A,/ /);for(i in A)print A[i]}' 
+
 clean:
 	rm -rf venv
 	rm -rf src/githubflow.egg-info
+	rm -rf dist
 
 setup:
 	virtualenv venv
