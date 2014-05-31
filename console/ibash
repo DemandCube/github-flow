@@ -1,0 +1,23 @@
+#!/bin/bash
+
+echo -n -e "\033]0;github-flow Process:$$ `tty` \007"
+export PS1="github-flow:\u >> "
+
+bash
+
+
+# http://git.savannah.gnu.org/cgit/bash.git/tree/builtins/complete.def
+# http://git.savannah.gnu.org/cgit/bash.git/tree/pcomplete.c
+# http://git.savannah.gnu.org/cgit/bash.git/tree/examples/complete
+# http://git.savannah.gnu.org/cgit/bash.git/tree/
+# http://www.gnu.org/software/bash/bash.html
+
+# https://github.com/GArik/bash-completion
+# http://www.gnu.org/software/bash/manual/bashref.html#Programmable-Completion
+# https://bash-completion.alioth.debian.org/
+# http://www.thegeekstuff.com/2013/12/bash-completion-complete/
+# http://www.thegeekstuff.com/2013/11/bash-standard-completion/
+
+# http://www.gnu.org/software/bash/manual/html_node/Programmable-Completion-Builtins.html
+# http://www.gnu.org/software/bash/manual/bashref.html#Bash-Builtins
+# http://www.tldp.org/LDP/abs/html/tabexpansion.html

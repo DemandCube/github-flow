@@ -1,0 +1,30 @@
+#!/usr/bin/env python
+
+import code
+import readline
+import rlcompleter
+
+# do something here
+
+vars = globals()
+vars.update(locals())
+readline.set_completer(rlcompleter.Completer(vars).complete)
+
+# http://stackoverflow.com/questions/7116038/python-tab-completion-mac-osx-10-7-lion
+
+if 'libedit' in readline.__doc__:
+    readline.parse_and_bind("bind ^I rl_complete")
+else:
+    readline.parse_and_bind("tab: complete")
+
+# Interpreter Class
+# https://docs.python.org/2/library/code.html
+
+# Code Source for Interactive Console
+# http://hg.python.org/cpython/file/90dab7697e89/Lib/code.py
+
+# History
+# https://docs.python.org/2/tutorial/interactive.html#tut-interacting
+
+shell = code.InteractiveConsole(vars)
+shell.interact()

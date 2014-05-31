@@ -126,6 +126,7 @@ Create config template
 - Development with Virtualenv <http://www.virtualenv.org/en/latest/>
 - Config Mangement Ansible <https://github.com/ansible/ansible>
 - Tabular output <https://pypi.python.org/pypi/tabulate/0.7.2>
+- Embededd DB <http://labs.codernity.com/codernitydb/>
 
 # Supporting Services
 - Badge <http://badge.fury.io/>
